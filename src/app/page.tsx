@@ -15,7 +15,7 @@ export default function Home() {
     <main className="flex w-screen flex-col items-center justify-between relative">
       {/* Video Background */}
       <video
-        src={require("../assets/home_bg_timur_project.mp4")}
+        src={require("@/assets/home_bg_timur_project.mp4")}
         autoPlay
         muted
         loop
