@@ -62,7 +62,7 @@ export default function Home() {
         <div className="h-full w-full flex flex-col items-center justify-around ">
           <div className="flex flex-col items-center justify-center">
             <Image src={homepageLogo} alt="Timur Logo" width={30} height={30}/>
-            <h2 className="font-semibold text-lg text-white tracking-menu mt-2">OUR WEBSITE IS ON THE HORIZON, STAY TUNED</h2>
+            <h2 className="font-semibold text-lg text-white tracking-menu mt-2 mb-2">OUR WEBSITE IS ON THE HORIZON, STAY TUNED</h2>
           </div>
           <div>
             <p className="pb-0 mb-0 text-white text-footer">Copyright © 2023 Timur</p>
