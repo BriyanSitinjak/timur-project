@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <div className='d-flex align-middle justify-center w-screen h-full'>ContactUs</div>
   )
 }
 
