@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useState } from "react";
 
 import timurLogo from "@/assets/svg/timur_project_logo.svg";
 import searchLogo from "@/assets/svg/magnifier_timur_project.svg";
@@ -10,7 +9,6 @@ import othersLogo from "@/assets/svg/others_icon_timur_project.svg";
 import instagramLogo from "@/assets/svg/instagram_timur_project.svg";
 
 export default function Dashboard() {
-  const [openMenu, setOpenMenu] = useState(false);
   return (
     <main className="flex w-screen flex-col items-center justify-between relative">
       {/* Video Background */}
