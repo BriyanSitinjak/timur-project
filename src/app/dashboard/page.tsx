@@ -7,6 +7,7 @@ import linkedinLogo from "@/assets/svg/linkedin_timur_project.svg";
 import homepageLogo from "@/assets/svg/homepage_timur_project.svg";
 import othersLogo from "@/assets/svg/others_icon_timur_project.svg";
 import instagramLogo from "@/assets/svg/instagram_timur_project.svg";
+import Link from "next/link";
 
 export default function Dashboard() {
   return (
@@ -44,7 +45,7 @@ export default function Dashboard() {
             <li>About</li>
             <li>Services</li>
             <li>Works</li>
-            <li>Contact Us</li>
+            <Link href='/'>Contact Us</Link>
           </ul>
         </div>
       </div>
