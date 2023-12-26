@@ -42,9 +42,9 @@ export default function Dashboard() {
         <div className="w-100 h-28 flex flex-row justify-center items-end py-5 bg-header-transparan">
           {/* Four Menu on Timur Project */}
           <ul className="list-none flex gap-20 text-white font-menu tracking-menu font-thin text-2xl">
-            <li>About</li>
-            <li>Services</li>
-            <li>Works</li>
+            <Link href='/'>About</Link>
+            <Link href='/'>Services</Link>
+            <Link href='/'>Works</Link>
             <Link href='/'>Contact Us</Link>
           </ul>
         </div>
