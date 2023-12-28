@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 import timurLogo from "@/assets/svg/timur_project_logo.svg";
 import searchLogo from "@/assets/svg/magnifier_timur_project.svg";
 import facebookLogo from "@/assets/svg/facebook_timur_project.svg";
@@ -12,7 +13,7 @@ import Link from "next/link";
 export default function Dashboard() {
   return (
     <main className="flex w-screen flex-col items-center justify-between relative">
-      {/* Video Background */}
+      {/* Video Background for Timur Project */}
       <video
         src={require("@/assets/home_bg_timur_project.mp4")}
         autoPlay
