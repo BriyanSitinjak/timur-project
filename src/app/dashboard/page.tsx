@@ -46,7 +46,7 @@ export default function Dashboard() {
             <Link href='www.google.com'>About</Link>
             <Link href='www.google.com'>Services</Link>
             <Link href='www.google.com'>Works</Link>
-            <Link href='www.google.com'>Contact Us</Link>
+            <Link href='/contact-us'>Contact Us</Link>
           </ul>
         </div>
       </div>
